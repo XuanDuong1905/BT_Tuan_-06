@@ -1,0 +1,22 @@
+KIỂM TRA ZIP FIGMA MAKE - 19/10/2026
+
+Tệp: FM-02-health-prototype-export.zip
+Môi trường: Windows, Node.js 24.19.0, pnpm 12.14.0, Vite 8.0.5
+
+1. Giải nén: thành công.
+2. pnpm install --frozen-lockfile: thành công, cài 43 package.
+3. pnpm build trên ZIP nguyên bản: thất bại với 4 lỗi MISSING_EXPORT.
+
+Nguyên nhân quan sát được:
+- ZIP có đồng thời WorkoutPerformance.tsx và workoutPerformance.ts.
+- ZIP có đồng thời ScheduleCalendar.tsx và scheduleCalendar.ts.
+- Hệ thống tệp Windows không phân biệt chữ hoa/thường khi phân giải hai cặp tên này.
+
+Kiểm tra tương thích trên bản sao tạm:
+- Đổi workoutPerformance.ts thành workoutPerformanceData.ts và cập nhật import.
+- Đổi scheduleCalendar.ts thành scheduleCalendarData.ts và cập nhật import.
+- Chạy lại pnpm build: thành công, 37 module được xử lý.
+- Kết quả tạo dist/index.html, CSS và JavaScript.
+- Phục vụ thư mục dist bằng HTTP cục bộ và mở bằng Chrome: thành công.
+
+Kết luận: ZIP chứa mã nguồn đầy đủ và có thể build/mở sau khi sửa hai xung đột tên tệp trên Windows; ZIP nguyên bản không build trực tiếp trên Windows.
