@@ -1,4 +1,4 @@
-# BÁO CÁO THÀNH VIÊN 3
+# BÁO CÁO PHÂN TÍCH CÔNG CỤ
 
 ## Tìm hiểu và kiểm chứng Figma Make, Google Stitch
 
@@ -14,12 +14,12 @@
 | Ứng dụng theo dõi sức khỏe | Figma Make | Figma, Inc. | Prototype tương tác, liên kết hoặc tệp xuất |
 | Sàn đấu giá trực tuyến | Google Stitch | Google Labs | Thiết kế/prototype trên canvas, liên kết và tệp xuất |
 
-Phần việc của TV3 gồm kiểm tra điều kiện truy cập, hạn mức, mô hình nếu hiển thị; đọc tài liệu và điều khoản quyền sử dụng; kiểm tra cách chia sẻ, xuất và mở lại sản phẩm; chuẩn bị nội dung công cụ để ghép vào slide chung.
+Phạm vi phân tích gồm điều kiện truy cập, hạn mức, mô hình hiển thị; tài liệu và điều khoản quyền sử dụng; khả năng chia sẻ, xuất và mở lại sản phẩm; nội dung công cụ dùng trong báo cáo chung.
 
 ## 2. Quy ước bằng chứng
 
 - **Đã chạy:** nhóm đã thao tác hoặc quan sát trên giao diện/tệp thực tế và có minh chứng.
-- **Theo tài liệu:** thông tin do nhà phát triển công bố, nhóm chưa tự xác nhận đầy đủ.
+- **Theo tài liệu:** thông tin được trích từ tài liệu chính thức của nhà phát triển.
 
 ## 3. Kết quả kiểm tra công cụ
 
@@ -29,9 +29,9 @@ Phần việc của TV3 gồm kiểm tra điều kiện truy cập, hạn mức,
 |---|---|---|---|
 | Loại sản phẩm | Công cụ prompt-to-app trên web, tạo functional prototype, web app và giao diện tương tác | Theo tài liệu | [F1] |
 | Gói thực tế | Education plan | Đã chạy | `FM-01-education-balance.png` |
-| Hạn mức và số dư ban đầu | 3.000 AI credit mỗi tháng; TV3 xác nhận bắt đầu thử với đủ 3.000 credit | Đã chạy | `FM-01-education-balance.png` và xác nhận của TV3 |
+| Hạn mức tháng | Education plan có 3.000 AI credit mỗi tháng | Đã chạy | `FM-01-education-balance.png` |
 | Số dư sau khi sử dụng | 2.066 credit còn lại; reset ngày 01/11 | Đã chạy | `FM-01-education-balance.png` |
-| Mức credit đã sử dụng | 3.000 − 2.066 = **934 credit** theo mốc trước–sau do TV3 xác nhận | Đã chạy | `FM-00-ket-qua-quan-sat.md` |
+| Credit đã dùng trong chu kỳ | 3.000 − 2.066 = **934 credit**, tính từ hạn mức tháng và số dư hiển thị | Đã chạy | `FM-01-education-balance.png`, `FM-00-ket-qua-quan-sat.md` |
 | Truy cập file được chia sẻ | Đã mở được file “Health Tracking App Prototype” với quyền View và có thể xem giao diện | Đã chạy | `FM-01-education-balance.png` |
 | Xuất mã nguồn | Đã nhận ZIP chứa dự án React/Vite, mã TypeScript, CSS, cấu hình và lockfile | Đã chạy | `FM-02-health-prototype-export.zip` |
 | Kiểm tra ZIP nguyên bản trên Windows | Giải nén và cài dependency thành công; build thất bại do hai cặp tệp chỉ khác chữ hoa/thường | Đã chạy | `FM-03-build-log.txt` |
@@ -39,7 +39,7 @@ Phần việc của TV3 gồm kiểm tra điều kiện truy cập, hạn mức,
 | Chia sẻ preview | Figma hỗ trợ chia sẻ fullscreen preview và đặt quyền truy cập | Theo tài liệu | [F4] |
 | Copy sang Figma Design | Có thể chép preview thành layer; layer sửa được nhưng là snapshot, không giữ tương tác và không đồng bộ ngược | Theo tài liệu | [F6] |
 
-**Nhận xét:** Tài khoản bắt đầu với 3.000 credit và còn 2.066 credit sau quá trình sử dụng, tương ứng 934 credit đã dùng. Đây là mức tiêu hao theo balance toàn phiên, không phải số credit của một prompt riêng lẻ. Role 1 cũng cung cấp ZIP mã nguồn thực tế. ZIP mở và cài dependency được nhưng không build nguyên trạng trên Windows do xung đột tên tệp chỉ khác chữ hoa/thường; bản sao đã sửa hai tên tệp build và hiển thị thành công.
+**Nhận xét:** Education plan có hạn mức 3.000 credit mỗi tháng và ảnh kiểm tra hiển thị còn 2.066 credit, tương ứng 934 credit đã dùng trong chu kỳ. Đây không phải số credit của một prompt riêng lẻ. Bộ tệp bàn giao có ZIP mã nguồn thực tế. ZIP mở và cài dependency được nhưng không build nguyên trạng trên Windows do xung đột tên tệp chỉ khác chữ hoa/thường; bản sao đã sửa hai tên tệp build và hiển thị thành công.
 
 ### 3.2. Google Stitch
 

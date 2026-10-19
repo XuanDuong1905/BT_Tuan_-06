@@ -1,4 +1,4 @@
-# Danh mục minh chứng TV3
+# Danh mục minh chứng phân tích công cụ
 
 ## Google Stitch
 
@@ -16,16 +16,16 @@
 
 | Tệp | Nội dung | Trạng thái |
 |---|---|---|
-| `figma/FM-00-ket-qua-quan-sat.md` | Biên bản số liệu đọc từ ảnh Figma do TV3 cung cấp | Đã ghi nhận |
+| `figma/FM-00-ket-qua-quan-sat.md` | Biên bản số liệu đọc từ ảnh Figma | Đã ghi nhận |
 | `figma/FM-01-education-balance.png` | Education plan, 3.000 credit/tháng, còn 2.066, reset 01/11 | Đã kiểm tra |
-| `figma/FM-02-health-prototype-export.zip` | ZIP mã nguồn prototype sức khỏe từ Role 1 | Đã nhận và giải nén |
+| `figma/FM-02-health-prototype-export.zip` | ZIP mã nguồn prototype sức khỏe | Đã nhận và giải nén |
 | `figma/FM-03-build-log.txt` | Kết quả cài đặt/build ZIP nguyên bản và bản sửa tương thích Windows | Đã kiểm tra |
 | `figma/FM-04-build-sau-sua-tuong-thich.png` | Dự án sau sửa tương thích build và hiển thị trong Chrome | Đã kiểm tra |
 
-Báo cáo dùng balance đầu phiên 3.000 và balance sau sử dụng 2.066 do TV3 xác nhận.
+Báo cáo tính 934 credit đã dùng trong chu kỳ từ hạn mức tháng 3.000 và số dư hiển thị 2.066.
 
 ## An toàn dữ liệu
 
 - Không lưu mật khẩu, token hoặc thông tin thanh toán.
 - Ảnh Stitch chỉ hiển thị ký tự đại diện tài khoản, không hiển thị email đầy đủ.
-- Không đưa ảnh Account của Role 1 vào bộ nộp vì ảnh hiển thị họ tên và email đầy đủ.
+- Không đưa ảnh Account vào bộ nộp vì ảnh hiển thị họ tên và email đầy đủ.
