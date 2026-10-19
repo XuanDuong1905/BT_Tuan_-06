@@ -49,9 +49,3 @@ Hai công cụ phục vụ cùng mục tiêu tạo prototype nhưng khác nhau v
 
 ## 8. Kết luận
 Figma Make và Google Stitch hỗ trợ rút ngắn thời gian tạo prototype cho hai miền nghiệp vụ khác nhau. Việc lặp prompt và chỉnh sửa giúp cải thiện độ bao phủ thành phần và tính nhất quán giao diện. Tuy nhiên, chất lượng cuối cần được đánh giá bằng giao diện, luồng tương tác, khả năng xuất và tính tương thích môi trường. Vai trò của TV4 là kết nối các kết quả thành một báo cáo thống nhất, minh họa bằng chứng và đóng gói bộ bài nộp rõ ràng.
-
-## Phụ lục
-- Nhật ký prompt và ảnh minh chứng của TV1.
-- Ảnh lượt đầu/lượt cuối, CS-1/CS-2 và prototype xuất của TV2.
-- Báo cáo công cụ, log build và nguồn tham khảo của TV3.
-- Video demo dự phòng do TV4 quay/ghép (tối đa 90 giây).
